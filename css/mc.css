@@ -1,0 +1,39 @@
+@import "../css/styles.css";
+
+body {
+  color: #fffff8;
+  background-image: url("../images/light-road.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.md-col {
+  background-image: url('../images/Blue.jpg');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  grid-area: md;
+  background-position: center;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  float: left;
+  width: 50%;
+}
+
+.card {
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+  }
+}

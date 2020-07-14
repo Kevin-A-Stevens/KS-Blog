@@ -1,0 +1,20 @@
+@import "../css/styles.css";
+
+body {
+  color: #fffff8;
+  background-image: url("../images/July.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  width: 20%;
+}
+
+.md-col {
+  background-image: url('../images/Blue.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  grid-area: md;
+  background-position: center;
+}

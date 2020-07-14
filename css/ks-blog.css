@@ -1,0 +1,40 @@
+@import "../css/styles.css";
+
+body {
+  color: #fffff8;
+  background-image: url("../images/person-riding-motorcycle.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+}
+
+a {
+  color: blue;
+}
+
+.md-col {
+  grid-area: md;
+  padding: 10px;
+  }
+
+  #NestedGrid{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 250px 250px;
+    grid-template-areas:
+    "pic pic pic pic"
+    "cm cm cm cm";
+    grid-gap: 25px;
+  }
+
+  #one{
+    background-image: url("../images/Honda-NSR250R.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-area: pic;
+    background-position: left;
+  }
+
+  #two{
+    display: grid;
+    grid-area: cm;
+  }
